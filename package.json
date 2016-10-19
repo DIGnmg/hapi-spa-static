@@ -1,0 +1,27 @@
+{
+  "name": "hapi-spa-static",
+  "version": "1.0.0",
+  "description": "backend for a spa static server",
+   "engines": {
+    "node": "4.2.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "test",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "author": "Nathanael Gethers",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^3.2.2",
+    "hapi": "^13.0.0",
+    "inert": "^4.0.1",
+    "joi": "^8.0.4",
+    "nconf": "^0.8.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
